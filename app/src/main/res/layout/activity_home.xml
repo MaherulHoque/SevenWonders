@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/btn_pyramid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:text="Great Pyramid of Giza" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_pyramid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-56dp"
+        android:text="7 Wonders of the Ancient World"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_temple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_pyramid"
+        android:text="Temple of Artemis at Ephesus" />
+
+    <Button
+        android:id="@+id/btn_hanging_garden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_temple"
+        android:text="Hanging Gardens of Babylon" />
+
+    <Button
+        android:id="@+id/btn_lighthouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_hanging_garden"
+        android:text="Lighthouse of Alexandria" />
+
+    <Button
+        android:id="@+id/btn_statue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_lighthouse"
+        android:text="Statue of Zeus at Olympia" />
+
+    <Button
+        android:id="@+id/btn_mausoleum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_statue"
+        android:text="Mausoleum at Halicarnassus" />
+
+    <Button
+        android:id="@+id/btn_colossus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_mausoleum"
+        android:text="Colossus of Rhodes" />
+</RelativeLayout>
